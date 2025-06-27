@@ -7,74 +7,88 @@
   <title>ProtoEdge | Electronics Hardware & PCB Design</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gray-100 text-gray-900 font-sans">
 
-  <header class="bg-white shadow p-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-xl font-bold">ProtoEdge</h1>
-      <nav class="space-x-4">
-        <a href="#about" class="hover:underline">About</a>
-        <a href="#services" class="hover:underline">Services</a>
-        <a href="#projects" class="hover:underline">Projects</a>
-        <a href="#contact" class="hover:underline">Contact</a>
-        <a href="Abhishek_Kumar_Resume_Upwork.docx" class="text-blue-600 font-semibold">Download Resume</a>
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">ProtoEdge</h1>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+        <a href="Abhishek_Kumar_Resume_Upwork.docx" class="text-white bg-blue-600 px-3 py-1 rounded hover:bg-blue-700">Download Resume</a>
       </nav>
     </div>
   </header>
 
-  <section class="bg-blue-100 py-10 text-center">
-    <h2 class="text-3xl font-bold">Electronics Hardware & PCB Design Expert</h2>
-    <p class="mt-2 text-lg">DIY to Industrial Prototyping | Embedded Systems | Custom Electronics</p>
+  <section class="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-20 text-center">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold mb-4">Electronics Hardware & PCB Design Expert</h2>
+      <p class="text-lg">DIY to Industrial Prototyping | Embedded Systems | Custom Electronics</p>
+    </div>
   </section>
 
-  <section id="about" class="py-10 px-6 max-w-4xl mx-auto">
-    <h3 class="text-2xl font-bold mb-4">About Me</h3>
-    <p>
-      I’m Abhishek Kumar, a Technical Officer at a Government R&D University in India, with over 8 years of hands-on experience in electronics hardware testing, embedded systems, and product development. From student prototypes to scalable industrial designs, I bring practical, efficient, and research-backed solutions.
+  <section id="about" class="py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-6 text-blue-700">About Me</h3>
+    <p class="text-lg leading-relaxed">
+      I’m Abhishek Kumar, a Technical Officer at a Government R&D University in India, with over 8 years of hands-on experience in electronics hardware testing, embedded systems, and product development.
+      From student prototypes to scalable industrial designs, I bring practical, efficient, and research-backed solutions.
     </p>
   </section>
 
-  <section id="services" class="bg-white py-10 px-6 max-w-4xl mx-auto">
-    <h3 class="text-2xl font-bold mb-4">Services</h3>
-    <ul class="list-disc list-inside space-y-2">
-      <li>Custom PCB Design & Layout</li>
-      <li>Embedded System Development</li>
-      <li>DIY Electronics Project Consulting</li>
-      <li>Lab/Test Bench Automation</li>
-      <li>Hardware Troubleshooting and Instrumentation</li>
-    </ul>
+  <section id="services" class="bg-white py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-6 text-blue-700">Services</h3>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">PCB Design & Layout</h4>
+        <p>Professional multilayer board design with Altium, Eagle, or KiCAD.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">Embedded Systems</h4>
+        <p>Microcontroller-based systems and firmware for real-world applications.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">DIY Electronics Consulting</h4>
+        <p>Guidance on project building for hobbyists, students, and startups.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">Lab Automation</h4>
+        <p>Custom systems to automate and monitor lab benches and resources.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="projects" class="bg-gray-100 py-10 px-6 max-w-4xl mx-auto">
-    <h3 class="text-2xl font-bold mb-4">Featured Projects</h3>
+  <section id="projects" class="bg-gray-100 py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-6 text-blue-700">Projects</h3>
     <div class="space-y-6">
-      <div>
-        <h4 class="font-semibold">Smart Light Automation Module</h4>
+      <div class="bg-white p-6 rounded shadow">
+        <h4 class="font-semibold text-xl">Smart Light Automation Module</h4>
         <p>Low-cost motion-sensing module developed using microcontrollers. Operational 24x7 for over 3 years.</p>
       </div>
-      <div>
-        <h4 class="font-semibold">Automatic Hand Sanitizer</h4>
+      <div class="bg-white p-6 rounded shadow">
+        <h4 class="font-semibold text-xl">Automatic Hand Sanitizer</h4>
         <p>Wall/tabletop unit with timing and flow control. Designed for minimal power use with noise filtering.</p>
       </div>
-      <div>
-        <h4 class="font-semibold">Resource Access Logger</h4>
+      <div class="bg-white p-6 rounded shadow">
+        <h4 class="font-semibold text-xl">Resource Access Logger</h4>
         <p>Embedded GUI-based logging system for lab equipment. Helps monitor usage and user activity.</p>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="py-10 px-6 max-w-4xl mx-auto">
-    <h3 class="text-2xl font-bold mb-4">Contact</h3>
-    <p>You can reach me at:</p>
-    <ul class="mt-2">
-      <li>Email: abhishek@iitd.ac.in</li>
-      <li>Location: New Delhi, India</li>
-      <li>Languages: English, Hindi, Bhojpuri, Bengali</li>
+  <section id="contact" class="py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-6 text-blue-700">Contact</h3>
+    <p class="text-lg mb-4">Let’s get in touch!</p>
+    <ul class="text-lg space-y-1">
+      <li><strong>Email:</strong> abhishek@iitd.ac.in</li>
+      <li><strong>Location:</strong> New Delhi, India</li>
+      <li><strong>Languages:</strong> English, Hindi, Bhojpuri, Bengali</li>
     </ul>
   </section>
 
-  <footer class="bg-white border-t mt-10 py-4 text-center text-sm">
-    © 2025 Abhishek Kumar | ProtoEdge
+  <footer class="bg-white border-t mt-10 py-6 text-center text-sm text-gray-600">
+    © 2025 Abhishek Kumar | ProtoEdge. All rights reserved.
   </footer>
 
 </body>
