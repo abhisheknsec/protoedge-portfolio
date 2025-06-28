@@ -124,66 +124,6 @@
     </div>
   </section>
 
-  <!-- Testimonials -->
-  <section id="testimonials" class="py-16 px-6 bg-gray-100">
-    <h3 class="text-3xl font-bold text-blue-700 mb-8 text-center">Client Testimonials</h3>
-    <div class="relative max-w-xl mx-auto">
-      <!-- Slides -->
-      <div class="relative">
-        <div class="testimonial-slide block bg-white p-6 rounded shadow italic text-gray-700 transition-opacity duration-500 ease-in-out">
-          “Abhishek transformed our idea into a fully working prototype in record time. Excellent communication and delivery.”
-          <footer class="mt-2 font-bold">— Startup Founder, Delhi</footer>
-        </div>
-        <div class="testimonial-slide hidden bg-white p-6 rounded shadow italic text-gray-700 transition-opacity duration-500 ease-in-out">
-          “Highly knowledgeable in embedded systems and very detail-oriented in design review and execution.”
-          <footer class="mt-2 font-bold">— Academic Lab Supervisor</footer>
-        </div>
-        <div class="testimonial-slide hidden bg-white p-6 rounded shadow italic text-gray-700 transition-opacity duration-500 ease-in-out">
-          “Great support during product testing phase. We saved weeks of debugging thanks to Abhishek’s help.”
-          <footer class="mt-2 font-bold">— IoT Developer, Bengaluru</footer>
-        </div>
-      </div>
-
-      <!-- Dots -->
-      <div class="flex justify-center mt-6 space-x-3">
-        <button class="dot w-3 h-3 bg-blue-400 rounded-full focus:outline-none"></button>
-        <button class="dot w-3 h-3 bg-gray-400 rounded-full focus:outline-none"></button>
-        <button class="dot w-3 h-3 bg-gray-400 rounded-full focus:outline-none"></button>
-      </div>
-    </div>
-
-    <script>
-      const slides = document.querySelectorAll('.testimonial-slide');
-      const dots = document.querySelectorAll('.dot');
-      dots.forEach((dot, i) => {
-        dot.addEventListener('click', () => {
-          slides.forEach(slide => slide.classList.add('hidden'));
-          dots.forEach(d => d.classList.remove('bg-blue-400'));
-          slides[i].classList.remove('hidden');
-          dot.classList.add('bg-blue-400');
-        });
-      });
-    </script>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-16 px-6 bg-gray-100">
-    <h3 class="text-3xl font-bold text-blue-700 mb-4 text-center">Contact Me</h3>
-    <p class="text-lg mb-6 text-center">Open to freelance opportunities, collaborations, and consultations.</p>
-    <form action="https://formsubmit.co/abhikrbhardwaj@gmail.com" method="POST" class="grid gap-4 max-w-md mx-auto">
-      <input type="text" name="name" placeholder="Your Name" class="p-3 border rounded" required>
-      <input type="email" name="email" placeholder="Your Email" class="p-3 border rounded" required>
-      <textarea name="message" placeholder="Your Message" rows="4" class="p-3 border rounded" required></textarea>
-      <input type="hidden" name="_next" value="https://abhisheknsec.github.io/protoedge-portfolio/" />
-      <button type="submit" class="bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Send Message</button>
-    </form>
-    <ul class="mt-8 text-center text-lg space-y-1">
-      <li><strong>Email:</strong> abhikrbhardwaj@gmail.com</li>
-      <li><strong>Location:</strong> New Delhi, India</li>
-      <li><strong>Languages:</strong> English, Hindi</li>
-    </ul>
-  </section>
-
   <!-- Footer -->
   <footer class="bg-white border-t mt-10 py-6 text-center text-sm text-gray-600">
     Abhishek Kumar | ProtoEdge. All rights reserved.
